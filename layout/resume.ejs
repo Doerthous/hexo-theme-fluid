@@ -1,0 +1,12 @@
+<%
+page.layout = "resume"
+page.title = theme.resume.title || __('resume.title')
+page.subtitle = theme.resume.subtitle || __('resume.subtitle')
+page.banner_img = theme.resume.banner_img
+page.banner_img_height = theme.resume.banner_img_height
+page.banner_mask_alpha = theme.resume.banner_mask_alpha
+%>
+
+<div class="mt-5 markdown-body">
+  <%- page.content %>
+</div>
